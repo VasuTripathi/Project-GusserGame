@@ -5,7 +5,7 @@ Package
 *Java*
 
 package GuesserGame;
-AI-generated code. Review and use carefully. More info on FAQ.
+ Review and use carefully. More info on FAQ.
 Classes
 1. Guesser
    The Guesser class is responsible for the Guesser’s number selection.
@@ -41,7 +41,7 @@ int PlayerNum;
         return PlayerNum;
     }
 }
-AI-generated code. Review and use carefully. More info on FAQ.
+Review and use carefully. More info on FAQ.
 Attributes:
 PlayerNum: Stores the number guessed by the Player.
 Methods:
@@ -50,7 +50,7 @@ PlayerNumb(): Prompts the Player to input a number and returns it.
    The Umpire class manages the game by collecting numbers from the Guesser and Players and comparing them to determine the winner(s).
 
 Java
-
+~~~ java
 class Umpire {
 int Guessernum;
 int Playernum1;
@@ -100,7 +100,8 @@ int Playernum3;
         }
     }
 }
-AI-generated code. Review and use carefully. More info on FAQ.
+~~~
+Review and use carefully. More info on FAQ.
 Attributes:
 Guessernum: Stores the number guessed by the Guesser.
 Playernum1, Playernum2, Playernum3: Store the numbers guessed by the Players.
