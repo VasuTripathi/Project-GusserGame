@@ -103,7 +103,7 @@ int Playernum3;
     }
 }
 ~~~
-Review and use carefully. More info on FAQ.
+
 Attributes:
 Guessernum: Stores the number guessed by the Guesser.
 Playernum1, Playernum2, Playernum3: Store the numbers guessed by the Players.
