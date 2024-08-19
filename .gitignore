@@ -16,14 +16,14 @@ bin/
 !**/src/test/**/bin/
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+/###
+.vscode/nbproject/private/
+        /nbbuild/
+        /dist/
+        /nbdist/
+        /.nb-gradle/
 
-### VS Code ###
-.vscode/
+        ### VS Code
 
 ### Mac OS ###
 .DS_Store
