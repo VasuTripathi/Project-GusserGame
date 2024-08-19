@@ -10,7 +10,7 @@ Classes
 1. Guesser
    The Guesser class is responsible for the Guesser’s number selection.
 
-Java
+~~~Java
 
 class Guesser {
 int GuesserNum;
@@ -22,7 +22,8 @@ int GuesserNum;
         return GuesserNum;
     }
 }
-AI-generated code. Review and use carefully. More info on FAQ.
+~~~
+
 Attributes:
 GuesserNum: Stores the number guessed by the Guesser.
 Methods:
@@ -30,7 +31,7 @@ GuesserNumber(): Prompts the Guesser to input a number and returns it.
 2. Player
    The Player class is responsible for each Player’s number selection.
 
-Java
+~~~Java
 
 class Player {
 int PlayerNum;
@@ -41,7 +42,8 @@ int PlayerNum;
         return PlayerNum;
     }
 }
-Review and use carefully. More info on FAQ.
+~~~
+
 Attributes:
 PlayerNum: Stores the number guessed by the Player.
 Methods:
@@ -49,8 +51,8 @@ PlayerNumb(): Prompts the Player to input a number and returns it.
 3. Umpire
    The Umpire class manages the game by collecting numbers from the Guesser and Players and comparing them to determine the winner(s).
 
-Java
-~~~ java
+~~~Java
+
 class Umpire {
 int Guessernum;
 int Playernum1;
